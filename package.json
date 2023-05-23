@@ -1,0 +1,34 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "repository": "git@github.com:dattranit95/portfolio.git",
+  "author": "Dat Tran <dattranit95@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": "^18"
+  },
+  "scripts": {
+    "lint": "standard",
+    "lint:fix": "standard --fix",
+    "start:dev": "",
+    "build": "",
+    "start:prod": ""
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.2.3",
+    "@types/react": "^18.2.6",
+    "@types/react-dom": "^18.2.4",
+    "ts-standard": "^12.0.2",
+    "typescript": "^5.0.4",
+    "webpack": "^5.83.1",
+    "webpack-cli": "^5.1.1",
+    "webpack-dev-server": "^4.15.0"
+  },
+  "ts-standard": {
+    "project": "./tsconfig.json"
+  }
+}
